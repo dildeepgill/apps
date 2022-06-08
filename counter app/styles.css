@@ -1,0 +1,46 @@
+body {
+    color: red;
+    border-radius: 15px;
+    border: 4px solid;
+}
+
+.visit {
+    background-image: url("./path.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.white,
+.culture {
+    background-color: blue;
+}
+
+.todo {
+    background-image: url("./path.jpg");
+    background-size: cover;
+}
+
+.smaller {
+    width: 150px;
+    height: 150px;
+}
+
+.wrapper {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.todo2 {
+    text-align: center;
+}
