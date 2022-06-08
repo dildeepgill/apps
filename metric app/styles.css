@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.div1 {
+    background-color: lightblue;
+}
+
+.div2 {
+    background-color: lightgreen;
+}
