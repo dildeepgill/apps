@@ -7,22 +7,25 @@ let password4 = document.getElementById("password-4")
 
 
 let passwordLength = 8
+let resultstr = ''
+passwordNEW.addEventListener("click", function () {
 
-function passwordEL() {
-    let resultstr = ''
     for (let i = 0; i < passwordLength; i++) {
         let randomNum = Math.floor(Math.random() * possibleChars.length)
         resultstr += possibleChars[randomNum]
 
     }
-    return resultstr
-}
+
+})
+
+resultstr = passwordNEW()
 
 function firstPass() {
-    password1.innerHTML = passwordEL()
-    password2.innerHTML = passwordEL()
-    password3.innerHTML = passwordEL()
-    password4.innerHTML = passwordEL()
+    password1.innerText = allPass
+    password2.innerText = allPass
+    password3.innerText = allPass
+    password4.innerText = allPass
+
 
 }
 
